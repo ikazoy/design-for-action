@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design for Action"
+  short_description: "状況・目的・メンタルモデルから、理解して操作できるUIを設計する"
+  default_prompt: "$design-for-action を使い、ユーザーの状況・目的・メンタルモデルを踏まえて、このUIを改善してください。"
