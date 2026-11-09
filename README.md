@@ -36,7 +36,7 @@ $design-for-action この画面を、ユーザーの状況・目的・メンタ�
 
 新しいセッションで利用してください。依頼に応じた自動選択も対象にしています。
 
-アプリの画面、フォーム、設定、ダッシュボード、空の状態、UI文言の改善・レビューに使います。広告文やブランド表現だけの作業は対象外です。
+アプリの画面、フォーム、設定、ダッシュボード、空の状態、UI文言の改善・レビューに使います。想定した人物・用事・状況で、UIが分かりやすいかを実画面で確かめるウォークスルーにも使えます。広告文やブランド表現だけの作業は対象外です。
 
 ## 方針
 
@@ -46,11 +46,11 @@ $design-for-action この画面を、ユーザーの状況・目的・メンタ�
 - 料金、削除、外部通知、権限など、判断を変える条件は残す。
 - 各説明文を消したときに起きる具体的な問題を確かめ、役割のない説明は削除する。
 
-本文は [SKILL.md](skills/design-for-action/SKILL.md)、判断例は [examples.md](skills/design-for-action/references/examples.md) にあります。
+本文は [SKILL.md](skills/design-for-action/SKILL.md)、判断例は [examples.md](skills/design-for-action/references/examples.md)、検証の手順は [walkthrough.md](skills/design-for-action/references/walkthrough.md) にあります。
 
 ## 参照・着想元のスキル
 
-以下の4つを参照し、このスキルの目的に合わせて構成と文章を新たにまとめました。参照元の全文やコードは同梱していません。
+以下の7つを参照し、このスキルの目的に合わせて構成と文章を新たにまとめました。参照元の全文やコードは同梱していません。
 
 | 参照元 | 取り入れた要素 | 原典のライセンス |
 |---|---|---|
@@ -58,12 +58,15 @@ $design-for-action この画面を、ユーザーの状況・目的・メンタ�
 | [Microsoft / VS Code design-philosophy](https://github.com/microsoft/vscode/blob/59ef8a091da1c9d6745792866c163745ee6fc29b/.github/skills/design-philosophy/SKILL.md) | 価値・判断原則・具体的な変更をつなぐ構成、情報の強弱、意味のある一貫性 | [MIT](https://github.com/microsoft/vscode/blob/59ef8a091da1c9d6745792866c163745ee6fc29b/LICENSE.txt) |
 | [Paul Bakaus / Impeccable — clarify](https://github.com/pbakaus/impeccable/blob/5bf0a069dc857e1b5f4b090e004d9d5b231416ca/.agents/skills/impeccable/reference/clarify.md) | 文脈に合うメッセージ階層、状態と次の行動、復旧を支える言葉 | [Apache-2.0](https://github.com/pbakaus/impeccable/blob/5bf0a069dc857e1b5f4b090e004d9d5b231416ca/LICENSE) |
 | [Dammyjay93 / interface-design](https://github.com/Dammyjay93/interface-design/blob/2f9be3206855bcb2d1d0af262c8bae25cba6658d/.claude/skills/interface-design/SKILL.md) | 誰がどんな場面で何をするかを先に捉え、設計意図を構造と実装へ反映する視点 | [MIT](https://github.com/Dammyjay93/interface-design/blob/2f9be3206855bcb2d1d0af262c8bae25cba6658d/LICENSE) |
+| [mastepanoski / cognitive-walkthrough](https://github.com/mastepanoski/claude-skills/blob/0b50d6eb5f3a66b781492604723d65524ee920e2/skills/cognitive-walkthrough/SKILL.md) | 操作ごとに4つの問いで評価する手順、根拠のない数値を作らない姿勢 | [MIT](https://github.com/mastepanoski/claude-skills/blob/0b50d6eb5f3a66b781492604723d65524ee920e2/LICENSE) |
+| [jezweb / ux-audit](https://github.com/jezweb/claude-skills/blob/57e060f4a910f4792320bb1ad10e11183adb97dd/plugins/dev-tools/skills/ux-audit/SKILL.md) | 実画面を操作した記録を求め、検証の前に人物を固定する視点 | [MIT](https://github.com/jezweb/claude-skills/blob/57e060f4a910f4792320bb1ad10e11183adb97dd/LICENSE) |
+| [Owl-Listener / synthetic-user-testing](https://github.com/Owl-Listener/designpowers/blob/b7cca247ea3d17a0f06c1f0cc2edfbe0cf6a37f3/skills/synthetic-user-testing/SKILL.md) | 状況・用事・人物・成功条件で場面を書き、操作ごとに記録する形式 | [MIT](https://github.com/Owl-Listener/designpowers/blob/b7cca247ea3d17a0f06c1f0cc2edfbe0cf6a37f3/LICENSE) |
 
 統合時の判断と引き継がなかった規定は [sources.md](skills/design-for-action/references/sources.md) に記載しています。参照元のインストールは不要です。
 
 ## 検証範囲
 
-スキルの形式と参照リンクを検証し、作成時に4つの利用場面で定性的な机上確認を行いました。実ユーザー調査や他スキルとの比較による有効性の検証は行っていません。
+スキルの形式と参照リンクを検証し、作成時に4つの利用場面で定性的な机上確認を行いました。実ユーザー調査や他スキルとの比較による有効性の検証は行っていません。後から追加したウォークスルーの手順は、形式と参照リンクのみ検証しており、実際のUIでの試行は行っていません。
 
 ## ライセンス
 

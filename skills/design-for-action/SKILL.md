@@ -1,6 +1,6 @@
 ---
 name: design-for-action
-description: Design and refine task-oriented product UI, flows, and interface copy from the user's situation, goal, and mental model. Use for app screens, forms, settings, dashboards, empty states, and UX reviews where people need to understand, decide, act, or recover. Applies to UI copy edits too; marketing copy and visual branding alone are outside scope.
+description: Design, refine, and verify task-oriented product UI, flows, and interface copy from the user's situation, goal, and mental model. Use for app screens, forms, settings, dashboards, empty states, and UX reviews where people need to understand, decide, act, or recover, and for walkthroughs that test whether a UI is understandable for a given persona, job, and situation. Applies to UI copy edits too; marketing copy and visual branding alone are outside scope.
 ---
 
 # Design for Action
@@ -101,6 +101,7 @@ description: Design and refine task-oriented product UI, flows, and interface co
 実装したUIは対象の画面幅や操作手段で表示・操作し、必要な空・エラー・権限制限も確認する。
 実画面を使えないときは、確認できた成果物と未確認の動作を明示する。
 自分での操作確認と、実ユーザーによるメンタルモデルの検証を区別して報告する。
+分かりやすさの検証を頼まれたとき、フローや主要な画面を変更したときは、[walkthrough.md](references/walkthrough.md) の手順で一操作ずつ確かめる。
 
 ## 原則から変更へ落とす
 
